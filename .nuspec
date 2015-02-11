@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>0.1</version>
+    <version>0.2</version>
     <authors>Camelonta AB</authors>
     <owners>Camelonta AB</owners>
     <id>UmbracoCamelontaUI</id>
@@ -11,9 +11,9 @@
     <copyright>Copyright Camelonta AB 2015</copyright>
   </metadata>
   <files>
-    <file src="camelontacms.css" target="Plugins\Camelonta.UI\camelontacms.css" />
-    <file src="camelontacms.js" target="Plugins\Camelonta.UI\camelontacms.js" />
-    <file src="camelontacms.png" target="Plugins\Camelonta.UI\camelontacms.png" />
-    <file src="package.manifest" target="Plugins\Camelonta.UI\package.manifest" />
+    <file src="camelontacms.css" target="App_Plugins\Camelonta.UI\camelontacms.css" />
+    <file src="camelontacms.js" target="App_Plugins\Camelonta.UI\camelontacms.js" />
+    <file src="camelontacms.png" target="App_Plugins\Camelonta.UI\camelontacms.png" />
+    <file src="package.manifest" target="App_Plugins\Camelonta.UI\package.manifest" />
   </files>
 </package>
