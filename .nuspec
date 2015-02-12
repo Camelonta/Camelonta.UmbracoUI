@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>0.4</version>
+    <version>0.5</version>
     <authors>Camelonta AB</authors>
     <owners>Camelonta AB</owners>
     <id>UmbracoCamelontaUI</id>
@@ -14,6 +14,6 @@
     </dependencies-->
   </metadata>
   <files>
-    <file src="*" target="App_Plugins\Camelonta.UI" />
+    <file src="*.*" target="App_Plugins\Camelonta.UI" />
   </files>
 </package>
