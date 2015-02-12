@@ -14,9 +14,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="camelontacms.css" target="lib\App_Plugins\Camelonta.UI\camelontacms.css" />
-    <file src="camelontacms.js" target="lib\App_Plugins\Camelonta.UI\camelontacms.js" />
-    <file src="camelontacms.png" target="lib\App_Plugins\Camelonta.UI\camelontacms.png" />
-    <file src="package.manifest" target="lib\App_Plugins\Camelonta.UI\package.manifest" />
+    <file src="*" target="App_Plugins\Camelonta.UI" />
   </files>
 </package>
