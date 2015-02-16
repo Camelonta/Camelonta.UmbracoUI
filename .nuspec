@@ -14,7 +14,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin/Camelonta.UI.dll" target="lib" />
+    <file src="bin\Camelonta.UI.dll" target="lib" />
     <file src="Content\*.*" target="content\App_Plugins\Camelonta.UI" />
   </files>
 </package>
