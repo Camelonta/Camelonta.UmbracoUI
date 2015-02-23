@@ -37,3 +37,16 @@ ul.sections li.avatar {
 .usky-grid .tb:hover .usky-row {
     border-bottom: 1px dashed #ccc;
 }
+
+/* Lists */
+.cam-list div {
+    padding: 5px;
+}
+
+.odd {
+    background-color:#fff!important;
+}
+
+.even {
+    background-color:#f8f8f8;
+}
