@@ -38,6 +38,7 @@ ul.sections li.avatar {
     border-bottom: 1px dashed #ccc;
 }
 
+
 /* Lists */
 .cam-list div {
     padding: 5px;
@@ -49,4 +50,15 @@ ul.sections li.avatar {
 
 .even {
     background-color:#f8f8f8;
+}
+
+
+/* HTML-editor in grid */
+.mce-tinymce.mce-container.mce-panel {
+    border: 1px solid #ccc!important;
+}
+
+.usky-grid .mce-toolbar {
+    position: inherit;
+    width: 100%;
 }
