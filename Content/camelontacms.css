@@ -62,3 +62,9 @@ ul.sections li.avatar {
     position: inherit;
     width: 100%;
 }
+
+
+/* Larger headlines */
+.umb-panel-header .umb-headline, .umb-panel-header h1 {
+    font-size: 22px
+}
