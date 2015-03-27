@@ -63,11 +63,6 @@ ul.sections li.avatar {
     border: 1px solid #ccc!important;
 }
 
-.usky-grid .mce-toolbar {
-    position: inherit;
-    width: 100%;
-}
-
 
 /* Larger headlines */
 .umb-panel-header .umb-headline, .umb-panel-header h1 {
