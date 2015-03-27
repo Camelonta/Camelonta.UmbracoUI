@@ -60,9 +60,9 @@ var loginPageLoaded = false;
 
 function loadLoginPage() {
     
-    if ($("#umbracoMainPageBody").length) {
+    if ($("#login h1").length) {
 
-        $("#login h1").html("Välkommen till Camelonta <span class='cam-green'>CMS</span>");
+        $("#login h1").html("Välkommen till Camelonta <span class='cam-green'>CMS</span> <span class='cam-basedon'>Baserat på <span class='cam-orange'>Umbraco</span></span>");
 
         $("#login").prepend("<div class='camelonta-logo'><a href='/umbraco'><img src='../App_Plugins/Camelonta.UI/camelontacms.png'/></a></div>");
 
@@ -70,5 +70,5 @@ function loadLoginPage() {
     }
 
     if (!loginPageLoaded)
-        setTimeout(loadLoginPage, 100);
+        setTimeout(loadLoginPage, 300);
 }
