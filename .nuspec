@@ -10,11 +10,12 @@
     <description>Camelonta CMS gränsnittsförändringar för Umbraco</description>
     <copyright>Copyright Camelonta AB 2015</copyright>
     <dependencies>
-      <dependency id="UmbracoCms" version="7.2.1" />
+      <dependency id="UmbracoCms" version="7.2.4" />
     </dependencies>
   </metadata>
   <files>
     <file src="bin\Camelonta.UI.dll" target="lib" />
     <file src="Content\*.*" target="content\App_Plugins\Camelonta.UI" />
+    <file src="Configs\Web.config.install.xdt" target="content" />
   </files>
 </package>
