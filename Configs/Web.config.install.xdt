@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-	<appSettings>
+  <appSettings xdt:Transform="InsertIfMissing">
     <add key="umbracoReservedPaths" value="~/umbraco,~/install/,~/bundles" xdt:Locator="Match(key)" xdt:Transform="Replace" />
     <add key="umbracoTimeOutInMinutes" value="1440" xdt:Locator="Match(key)" xdt:Transform="Replace" />
 	</appSettings>

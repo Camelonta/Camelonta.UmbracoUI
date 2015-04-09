@@ -45,7 +45,9 @@
     <Content Include="Content\camelontacms.js" />
     <Content Include="Content\camelontacms.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Configs\Web.config.install.xdt" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Content\help.html" />
     <Content Include="Content\package.manifest" />
