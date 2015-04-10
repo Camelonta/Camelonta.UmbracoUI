@@ -6,21 +6,18 @@ ul.sections li.camelonta-logo {
     text-align: center;
     border-bottom: 1px solid #343434;
 }
-ul.sections li.camelonta-logo a {
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 0 auto;
-    border: 0;
-}
-ul.sections li.camelonta-logo a img {
-    width: 30px;
-    border-radius: 16px;
-}
+
+    ul.sections li.camelonta-logo a {
+        width: 45px;
+        height: 45px;
+        padding: 0;
+        margin: 0 auto;
+        border: 0;
+    }
 
 /* left border in sidebar */
 ul.sections li.current, ul.sections li:hover {
-  border-left: 4px #94BD2C solid;
+    border-left: 4px #94BD2C solid;
 }
 
 
@@ -39,6 +36,7 @@ ul.sections li.avatar {
 .usky-grid .tb:hover .td {
     border-right: 1px dashed #ccc;
 }
+
 .usky-grid .tb:hover .usky-row {
     border-bottom: 1px dashed #ccc;
 }
@@ -50,23 +48,23 @@ ul.sections li.avatar {
 }
 
 .odd {
-    background-color:#fff!important;
+    background-color: #fff !important;
 }
 
 .even {
-    background-color:#f8f8f8;
+    background-color: #f8f8f8;
 }
 
 
 /* HTML-editor in grid */
 .mce-tinymce.mce-container.mce-panel {
-    border: 1px solid #ccc!important;
+    border: 1px solid #ccc !important;
 }
 
 
 /* Larger headlines */
 .umb-panel-header .umb-headline, .umb-panel-header h1 {
-    font-size: 22px
+    font-size: 22px;
 }
 
 /* Login page */
@@ -83,20 +81,22 @@ ul.sections li.avatar {
     left: 26px;
     top: -1px;
 }
-#login .camelonta-logo a {
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 0 auto;
-    border: 0;
-}
-#login .camelonta-logo a img {
-    width: 32px;
-    border-radius: 16px;
-}
+
+    #login .camelonta-logo a {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin: 0 auto;
+        border: 0;
+    }
+
+        #login .camelonta-logo a img {
+            width: 32px;
+            border-radius: 16px;
+        }
 
 .cam-basedon {
-    font-size:12px;
+    font-size: 12px;
     position: relative;
     top: -13px;
 }
@@ -107,5 +107,5 @@ ul.sections li.avatar {
 }
 
 .cam-orange {
-    color: #df7f48 ;
+    color: #df7f48;
 }
