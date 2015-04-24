@@ -2,5 +2,6 @@
 <dashBoard xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
   <section alias="StartupDashboardSection" xdt:Locator="Match(alias)" xdt:Transform="InsertIfMissing">
     <tab caption="Get Started" xdt:Locator="Match(caption)" xdt:Transform="Remove"></tab>
+    <tab caption="Change Password" xdt:Locator="Match(caption)" xdt:Transform="Remove"></tab>
   </section>
 </dashBoard>
