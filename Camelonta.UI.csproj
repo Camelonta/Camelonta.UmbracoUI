@@ -46,7 +46,9 @@
     <Content Include="Content\camelontacms.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Configs\Web.config.install.xdt" />
+    <Content Include="Configs\Web.config.install.xdt">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\help.html" />
