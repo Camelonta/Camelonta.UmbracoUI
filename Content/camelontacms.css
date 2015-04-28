@@ -68,6 +68,10 @@ ul.sections li.avatar {
 }
 
 /* Login page */
+.login-overlay .form {
+    width: 400px;
+}
+
 #login h1 {
     font-size: 24px;
     width: 400px;
@@ -96,6 +100,12 @@ ul.sections li.avatar {
     font-size: 12px;
     position: relative;
     top: -13px;
+}
+
+@media (max-width: 900px) {
+    .login-overlay .form {
+      padding-left: 20px;
+    }
 }
 
 /* Colors */
