@@ -1,4 +1,4 @@
-﻿/* Logo in top of sidebar */
+/* Logo in top of sidebar */
 ul.sections li.camelonta-logo {
     height: 69px;
     padding: 30px 0 2px 0;
@@ -115,4 +115,8 @@ ul.sections li.avatar {
 
 .cam-orange {
     color: #df7f48;
+}
+
+.controls-row img{
+ max-width: 100%;   
 }
