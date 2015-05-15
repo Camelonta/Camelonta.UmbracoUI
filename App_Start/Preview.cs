@@ -4,7 +4,7 @@ using Umbraco.Web.Trees;
 
 namespace Camelonta.UI.Preview
 {
-    public class PreviewRegisterEvents : ApplicationEventHandler
+    public class Preview : ApplicationEventHandler
     {
         protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
         {

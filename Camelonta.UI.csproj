@@ -137,6 +137,7 @@
       <Private>True</Private>
       <HintPath>packages\UmbracoCms.Core.7.2.1\lib\System.Data.SqlServerCe.Entity.dll</HintPath>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
@@ -210,7 +211,8 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Preview\PreviewRegisterEvents.cs" />
+    <Compile Include="App_Start\ImageResize.cs" />
+    <Compile Include="App_Start\Preview.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

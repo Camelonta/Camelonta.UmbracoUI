@@ -120,3 +120,13 @@ ul.sections li.avatar {
 .controls-row img{
  max-width: 100%;   
 }
+
+
+/* Hide upload on root-folder in media */
+form[node-id="-1"] .drop-zone {
+    display: none;
+}
+form[node-id="-1"]:before {
+    content: "Uploading to root folder is not allowed. Please create a folder.\A\A"; /* TODO: localize */
+    white-space: pre;
+}
