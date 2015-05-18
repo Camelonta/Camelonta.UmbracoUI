@@ -7,13 +7,13 @@ ul.sections li.camelonta-logo {
     border-bottom: 1px solid #343434;
 }
 
-ul.sections li.camelonta-logo a {
-    width: 45px;
-    height: 45px;
-    padding: 0;
-    margin: 0 auto;
-    border: 0;
-}
+    ul.sections li.camelonta-logo a {
+        width: 45px;
+        height: 45px;
+        padding: 0;
+        margin: 0 auto;
+        border: 0;
+    }
 
 /* left border in sidebar */
 ul.sections li.current, ul.sections li:hover {
@@ -87,25 +87,19 @@ ul.sections li.avatar {
     top: -4px;
 }
 
-#login .camelonta-logo a {
-    display:block;
-    width: 45px;
-    height: 45px;
-    padding: 0;
-    margin: 0 auto;
-    border: 0;
-}
+    #login .camelonta-logo a {
+        display: block;
+        width: 45px;
+        height: 45px;
+        padding: 0;
+        margin: 0 auto;
+        border: 0;
+    }
 
 .cam-basedon {
     font-size: 12px;
     position: relative;
     top: -13px;
-}
-
-@media (max-width: 900px) {
-    .login-overlay .form {
-      padding-left: 20px;
-    }
 }
 
 /* Colors */
@@ -117,8 +111,8 @@ ul.sections li.avatar {
     color: #df7f48;
 }
 
-.controls-row img{
- max-width: 100%;   
+.controls-row img {
+    max-width: 100%;
 }
 
 
@@ -126,7 +120,77 @@ ul.sections li.avatar {
 form[node-id="-1"] .drop-zone {
     display: none;
 }
+
 form[node-id="-1"]:before {
     content: "Uploading to root folder is not allowed. Please create a folder.\A\A"; /* TODO: localize */
     white-space: pre;
 }
+
+/* Responsive fixar, ta bort dessa när dom blivit accepterade i core */
+
+/* login */
+.login-overlay .form {
+    padding-left: 21%;
+}
+
+@media (max-width: 767px) {
+    .login-overlay .form {
+        padding-left: 2%;
+    }
+}
+
+/* edit page */
+.form-horizontal .control-label {
+    width: 100%;
+}
+
+.controls-row {
+    margin-left: 0px !important;
+}
+
+@media (max-width: 767px) {
+    .umb-tab-buttons {
+        padding-left: 0;
+    }
+}
+
+/* Left menu */
+
+#leftcolumn {
+    width: 60px;
+}
+
+ul.sections {
+    width: 60px;
+}
+
+#navigation {
+    left: 60px;
+}
+
+#contentwrapper {
+    left: 60px;
+}
+
+
+/* top panel */
+
+@media (max-width: 767px) {
+    .umb-panel-header .umb-headline, .umb-panel-header h1 {
+        font-size: 16px;
+    }
+
+    .umb-panel-header .umb-nav-tabs, .umb-panel-header .umb-btn-toolbar {
+        font-size: 11px;
+    }
+
+    .umb-panel-header {
+        height: 80px;
+    }
+
+    .umb-nav-tabs {
+        margin: 0;
+    }
+}
+
+/* END: Responsive fixar, ta bort dessa när dom blivit accepterade i core */
