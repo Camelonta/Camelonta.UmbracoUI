@@ -139,43 +139,44 @@ form[node-id="-1"]:before {
     }
 }
 
-/* edit page */
-.form-horizontal .control-label {
-    width: 100%;
-}
-
-.controls-row {
-    margin-left: 0px !important;
-}
 
 @media (max-width: 767px) {
+    
+    /* edit page */
+
+    .form-horizontal .control-label {
+        width: 100%;
+    }
+
+    .controls-row {
+        margin-left: 0px !important;
+    }
     .umb-tab-buttons {
         padding-left: 0;
     }
-}
+    
 
-/* Left menu */
+    /* Left menu */
 
-#leftcolumn {
-    width: 60px;
-}
+    #leftcolumn {
+        width: 60px;
+    }
 
-ul.sections {
-    width: 60px;
-}
+    ul.sections {
+        width: 60px;
+    }
 
-#navigation {
-    left: 60px;
-}
+    #navigation {
+        left: 60px;
+    }
 
-#contentwrapper {
-    left: 60px;
-}
+    #contentwrapper {
+        left: 60px;
+    }
+    
 
+    /* top panel */
 
-/* top panel */
-
-@media (max-width: 767px) {
     .umb-panel-header .umb-headline, .umb-panel-header h1 {
         font-size: 16px;
     }
@@ -191,6 +192,6 @@ ul.sections {
     .umb-nav-tabs {
         margin: 0;
     }
-}
 
+}
 /* END: Responsive fixar, ta bort dessa när dom blivit accepterade i core */
