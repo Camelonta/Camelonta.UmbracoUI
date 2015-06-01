@@ -126,6 +126,22 @@ form[node-id="-1"]:before {
     white-space: pre;
 }
 
+
+/* == Page tree == */
+#tree .icon-home {
+    color: #E74C3C;
+}
+
+#tree .icon-article {
+    color: #004F90;
+}
+
+#tree .icon-thumbnails {
+    color: #600075;
+}
+/* == End of Page tree == */
+
+
 /* Responsive fixar, ta bort dessa när dom blivit accepterade i core */
 
 /* login */
