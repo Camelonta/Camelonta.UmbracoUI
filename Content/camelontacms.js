@@ -59,10 +59,12 @@ function loadHelpSection() {
 var loginPageLoaded = false;
 
 function loadLoginPage() {
-    
+
     if ($("#login h1").length) {
 
-        $("#login h1").html("Välkommen till <span class='cam-green'>Camelonta Web Pro</span> <span class='cam-basedon'>- en tjänst baserad på <span class='cam-orange'>Umbraco</span> CMS</span>");
+        $("#login h1")
+            .html("Välkommen till <span class='cam-green'>Camelonta Web Pro</span> <span class='cam-basedon'>- en tjänst baserad på <span class='cam-orange'>Umbraco</span> CMS</span>")
+            .css('opacity', 1);
 
         $("#login").prepend("<div class='camelonta-logo'><a href='/umbraco'><img src='../App_Plugins/Camelonta.UI/camelontacms.png'/></a></div>");
 
