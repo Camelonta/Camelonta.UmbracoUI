@@ -133,11 +133,19 @@ form[node-id="-1"]:before {
 }
 
 #tree .icon-article {
-    color: #004F90;
+    color: #2E9C5D;
 }
 
 #tree .icon-thumbnails {
-    color: #600075;
+    color: #2980B9;
+}
+
+#tree .icon-search, #tree .icon-radio {
+    color: #828282;
+}
+
+#tree .icon-info, #tree .icon-book-alt-2 {
+    color: #FF0095;
 }
 /* == End of Page tree == */
 
@@ -157,7 +165,7 @@ form[node-id="-1"]:before {
 
 
 @media (max-width: 767px) {
-    
+
     /* edit page */
 
     .form-horizontal .control-label {
@@ -167,10 +175,11 @@ form[node-id="-1"]:before {
     .controls-row {
         margin-left: 0px !important;
     }
+
     .umb-tab-buttons {
         padding-left: 0;
     }
-    
+
 
     /* Left menu */
 
@@ -189,7 +198,7 @@ form[node-id="-1"]:before {
     #contentwrapper {
         left: 60px;
     }
-    
+
 
     /* top panel */
 
@@ -208,6 +217,5 @@ form[node-id="-1"]:before {
     .umb-nav-tabs {
         margin: 0;
     }
-
 }
 /* END: Responsive fixar, ta bort dessa när dom blivit accepterade i core */
