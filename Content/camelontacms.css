@@ -94,6 +94,7 @@ ul.sections li.avatar {
     padding: 0 !important;
     text-align: left;
     width: 100%;
+    position: static;
 }
 
 .login-overlay h1 {
@@ -191,76 +192,3 @@ form[node-id="-1"]:before {
     color: #FF0095;
 }
 /* == End of Page tree == */
-
-
-/* Responsive fixar, ta bort dessa när dom blivit accepterade i core */
-
-/* login */
-.login-overlay .form {
-    padding-left: 21%;
-}
-
-@media (max-width: 767px) {
-    .login-overlay .form {
-        padding-left: 2%;
-    }
-}
-
-
-@media (max-width: 767px) {
-
-    /* edit page */
-
-    .form-horizontal .control-label {
-        width: 100%;
-    }
-
-    .controls-row {
-        margin-left: 0px !important;
-    }
-
-    .umb-tab-buttons {
-        padding-left: 0;
-    }
-
-
-    /* Left menu */
-
-    #leftcolumn {
-        width: 60px;
-    }
-
-    ul.sections {
-        width: 60px;
-    }
-
-    #navigation {
-        left: 60px;
-    }
-
-    #contentwrapper {
-        left: 60px;
-    }
-
-
-    /* top panel */
-
-    .umb-panel-header .umb-headline, .umb-panel-header h1 {
-        font-size: 16px;
-    }
-
-    .umb-panel-header .umb-nav-tabs, .umb-panel-header .umb-btn-toolbar {
-        font-size: 11px;
-    }
-
-    .umb-panel-header {
-        height: 80px;
-    }
-
-    .umb-nav-tabs {
-        margin: 0;
-    }
-}
-/* END: Responsive fixar, ta bort dessa när dom blivit accepterade i core */
-
-
