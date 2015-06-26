@@ -87,7 +87,7 @@ ul.sections li.avatar {
     margin-top: 16vh;
     border-radius: 9px;
     position: relative;
-    padding: 48px 17px 30px;
+    padding: 33px 17px 30px;
 }
 
 .login-overlay .form {
@@ -137,8 +137,12 @@ ul.sections li.avatar {
     left: 0;
     top: -35px;
     right: 0;
-    width: 70px;
+    width: 88px;
+    height: 88px;
     margin: auto;
+    background-color: #FFF;
+    border-radius: 50%;
+    text-align: center;   
 }
 
 .cam-basedon {
