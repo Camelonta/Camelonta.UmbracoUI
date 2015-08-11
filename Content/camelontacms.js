@@ -77,7 +77,7 @@
         }
 
         // Check if we are not on loginpage and abort
-        if ($("#leftcolumn").length) {
+        if ($("#leftcolumn #applications").length) {
             loaded.loginPageLoaded = true;
         }
 
