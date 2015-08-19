@@ -250,7 +250,7 @@
 SET PLUGINDIR="%25BOILERPLATE%25App_Plugins\Camelonta.UI"
 MKDIR %25PLUGINDIR%25
 xcopy $(TargetPath) "%25BOILERPLATE%25bin" /Y /D
-xcopy "$(ProjectDir)Content\*.*" %25PLUGINDIR%25 /Y /D</PostBuildEvent>
+xcopy "$(ProjectDir)App_Plugins\Camelonta.UI\*.*" %25PLUGINDIR%25 /Y /D</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
