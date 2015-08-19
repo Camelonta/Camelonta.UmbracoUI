@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,9 +42,9 @@
     <Content Include=".nuspec">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\camelontacms.css" />
-    <Content Include="Content\camelontacms.js" />
-    <Content Include="Content\camelontacms.png" />
+    <Content Include="App_Plugins\Camelonta.UI\camelontacms.css" />
+    <Content Include="App_Plugins\Camelonta.UI\camelontacms.js" />
+    <Content Include="App_Plugins\Camelonta.UI\camelontacms.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Configs\Web.config.install.xdt">
@@ -51,8 +52,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\help.html" />
-    <Content Include="Content\package.manifest" />
+    <Content Include="App_Plugins\Camelonta.UI\help.html" />
+    <Content Include="App_Plugins\Camelonta.UI\package.manifest" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AutoMapper">
@@ -207,7 +208,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\preview.js" />
+    <Content Include="App_Plugins\Camelonta.UI\preview.js" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -218,6 +219,7 @@
   <ItemGroup>
     <Content Include="Configs\Dashboard.config.install.xdt" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
