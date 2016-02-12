@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>3.0.0</version>
+    <version>3.0.0.1</version>
     <authors>Camelonta AB</authors>
     <owners>Camelonta AB</owners>
     <id>CamelontaUmbracoUI</id>
@@ -10,7 +10,7 @@
     <description>Camelonta CMS gränsnittsförändringar för Umbraco</description>
     <copyright>Copyright Camelonta AB 2015</copyright>
     <dependencies>
-      <dependency id="UmbracoCms" version="7.4" />
+      <dependency id="UmbracoCms" version="7.4.0" />
     </dependencies>
   </metadata>
   <files>
