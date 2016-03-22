@@ -13,6 +13,7 @@ ul.sections li.camelonta-logo {
         padding: 0;
         margin: 0 auto;
         border: 0;
+        max-width: 73%;
     }
 
 /* left border in sidebar */
