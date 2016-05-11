@@ -17,7 +17,7 @@ namespace Camelonta.UI.App_Start
 {
     public class ImageResize : ApplicationEventHandler
     {
-        int DefaultMaxWidth = 2000; // TODO: Set this from appSettings
+        int DefaultMaxWidth = 2700; // TODO: Set this from appSettings
 
         protected override void ApplicationStarting(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
         {
