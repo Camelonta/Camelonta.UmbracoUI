@@ -3,7 +3,6 @@ angular.module('umbraco.services').config(['$httpProvider', function ($httpProvi
     $httpProvider.interceptors.push(function ($q) {
         return {
             'response': function (response) {
-
                 // Load our welcome-text on the login-page
                 if (response.config.url.indexOf('views/common/dialogs/login.html') > -1) {
                     loadLoginPage(response);
