@@ -57,7 +57,7 @@ namespace Camelonta.UI.App_Start
                             string fullPath = mediaFileSystem.GetFullPath(path);
                             using (ImageFactory imageFactory = new ImageFactory(true))
                             {
-                                ResizeLayer layer = new ResizeLayer(new Size(maxWidth, 0), resizeMode: ResizeMode.Max, upscale: false);
+                                ResizeLayer layer = new ResizeLayer(new Size(maxWidth, 0), resizeMode: ResizeMode.Max, anchorPosition: AnchorPosition.Center, upscale: false);
                                 imageFactory.Load(fullPath).Resize(layer).Save(fullPath);
                             }
                         }
