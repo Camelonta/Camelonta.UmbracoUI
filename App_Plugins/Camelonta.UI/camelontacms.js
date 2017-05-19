@@ -28,7 +28,7 @@ angular.module('umbraco.services').config(['$httpProvider', function ($httpProvi
             .html("Välkommen till <span class='cam-green'>Camelonta Web Pro</span> <span class='cam-basedon'>- en tjänst baserad på <span class='cam-orange'>Umbraco</span> CMS</span>")
             .css('opacity', 1);
 
-        html.find("#login").prepend("<div class='camelonta-logo'><a href='../umbraco'><img src='../App_Plugins/Camelonta.UI/camelontacms.png'/></a></div>");
+        html.find("#login").prepend("<div class='camelonta-logo'><a href='/umbraco'><img src='../App_Plugins/Camelonta.UI/camelontacms.png'/></a></div>");
 
         response.data = html.html();
     }
@@ -36,7 +36,7 @@ angular.module('umbraco.services').config(['$httpProvider', function ($httpProvi
     // Load camelonta-logo
     function loadCamelontaLogo(response) {
         var html = $('<div />', { html: response.data });
-        html.find("#applications .sections").prepend("<li class='camelonta-logo'><a href='../umbraco'><img src='../App_Plugins/Camelonta.UI/camelontacms.png'/></a></li>")
+        html.find("#applications .sections").prepend("<li class='camelonta-logo'><a href='/umbraco'><img src='../App_Plugins/Camelonta.UI/camelontacms.png'/></a></li>")
         html.find("li.avatar").insertBefore(html.find("li.help"));
         response.data = html.html();
     }
