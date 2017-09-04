@@ -45,20 +45,24 @@ namespace Camelonta.UI.App_Start
                 {
                     // Make sure it's an image.
                     string path = media.GetValue<string>("umbracoFile");
-                    string extension = Path.GetExtension(path).Substring(1);
-                    if (supportedTypes.InvariantContains(extension))
+                    var fullExtension = Path.GetExtension(path);
+                    if (fullExtension != null)
                     {
-                        // Get maxwidth from parent folder
-                        var maxWidth = GetMaxWidthFromParent(DefaultMaxWidth, media);
-
-                        if (maxWidth < media.GetValue<int>("umbracoWidth"))
+                        string extension = fullExtension.Substring(1);
+                        if (supportedTypes.InvariantContains(extension))
                         {
-                            // Resize the image to maxWidth:px wide, height is driven by the aspect ratio of the image.
-                            string fullPath = mediaFileSystem.GetFullPath(path);
-                            using (ImageFactory imageFactory = new ImageFactory(true))
+                            // Get maxwidth from parent folder
+                            var maxWidth = GetMaxWidthFromParent(DefaultMaxWidth, media);
+
+                            if (maxWidth < media.GetValue<int>("umbracoWidth"))
                             {
-                                ResizeLayer layer = new ResizeLayer(new Size(maxWidth, 0), resizeMode: ResizeMode.Max, anchorPosition: AnchorPosition.Center, upscale: false);
-                                imageFactory.Load(fullPath).Resize(layer).Save(fullPath);
+                                // Resize the image to maxWidth:px wide, height is driven by the aspect ratio of the image.
+                                string fullPath = mediaFileSystem.GetFullPath(path);
+                                using (ImageFactory imageFactory = new ImageFactory(true))
+                                {
+                                    ResizeLayer layer = new ResizeLayer(new Size(maxWidth, 0), resizeMode: ResizeMode.Max, anchorPosition: AnchorPosition.Center, upscale: false);
+                                    imageFactory.Load(fullPath).Resize(layer).Save(fullPath);
+                                }
                             }
                         }
                     }
