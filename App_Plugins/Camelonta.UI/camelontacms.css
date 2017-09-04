@@ -72,6 +72,10 @@ ul.sections li.avatar {
     padding: 54px 6px 30px;
 }
 
+.login-overlay__background-image {
+    display: none;
+}
+
 .login-overlay .form {
     padding: 0 !important;
     text-align: left;
@@ -81,11 +85,12 @@ ul.sections li.avatar {
 
 .login-overlay .umb-login-container {
     padding-top: 0 !important;
+    background-color: #fff;
 }
 
 .login-overlay h1 {
     text-align: left;
-    font-size: 21px;
+    font-size: 24px;
     margin-bottom: 22px;
     overflow: hidden;
     color: #333;
